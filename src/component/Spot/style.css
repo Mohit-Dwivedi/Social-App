@@ -1,0 +1,65 @@
+.spot{
+    width: 100%;
+    border-radius: 10px; -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin: 30px 0;
+}
+.spotWrapper{
+    padding: 10px;
+}
+
+.spotTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spotTopLeft{
+    display: flex;
+    align-items: center;
+}
+.spotProfileImg{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.spotUserName{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.spotDate{
+    font-size: 12px;
+}
+.spotCenter{
+    margin: 20px 0;
+}
+.spotImg{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+}
+.spotBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spotBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.spotLikeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.likecounter{
+    font-size: 15px;
+}
+.spotCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
